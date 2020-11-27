@@ -1,0 +1,36 @@
+<html>
+<body class="body"> 
+
+<div class="container mb-5">
+
+
+<div class="row">
+    <div class="col col-lg-4 md-4 sm-6 xs-6">
+            
+    </div>
+    <div class="col col-lg-4 md-4 sm-6 xs-6 mt-5">
+            <div>
+                <div class="h4 text-center text-light" style="font-weight:500;">Your Album is Now Ready</div>
+                <hr>
+            </div>
+        <div class="w3-content w3-section mt-5" >
+            <img class="mySlides rouded-lg img-responsive img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCijTT0o_q5SRS4jRbgVA2frt4aN65SpHoQ&usqp=CAU">
+         <img class="mySlides rouded-lg img-responsive img-fluid" src="https://www.123greetingmessage.net/wp-content/uploads/2018/10/Diwali-Wishes-for-Friends-and-Family.png">
+            <img class="mySlides rouded-lg img-responsive img-fluid" src="https://www.momnewsdaily.com/wp-content/uploads/2020/05/shutterstock_570763687-600x310.jpg" >
+                
+        <div *ngFor="let list of product">
+                  <img [src]='list.url'class="mySlides"/>     
+        </div>
+           
+   
+        </div>
+    </div>
+    <div class="col col-lg-4 md-4 sm-6 xs-6">
+
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<div class="container pt-155">
+   <div>
+        <table class="table  border 1px solid   rounded-lg shadow-lg bg-light"> 
+                <thead class="bg-success">
+                    <tr>
+                        <th>Sr.no</th>
+                        <th>Frist_Name</th>    
+                        <th>Address</th>
+                        <th>Email_ID</th>
+                    </tr>
+                </thead>
+                    <tbody *ngFor = "let userdata of ShowUsersData" style="background-color: whitesmoke">
+                    <tr>
+                        <th><h6>{{userdata.id}}</h6></th>
+                        <th><h6><a  [routerLink]="['/album']" style="color: black;">{{userdata.name}}</a></h6></th>    
+                        <th><h6>{{userdata.address}}</h6></th>
+                        <th><h6>{{userdata.Email}}</h6></th>
+                    </tr>    
+                </tbody>
+        </table>
+   </div>
+</div>

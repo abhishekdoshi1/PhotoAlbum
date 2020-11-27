@@ -1,0 +1,9 @@
+.mySlides {display:none;}
+
+.body
+{
+    background-image: url('https://flevix.com/wp-content/uploads/2019/12/Live-Background-1.svg');
+    height: 100%;
+    width: 100%;
+    margin-bottom: 500px;
+}
