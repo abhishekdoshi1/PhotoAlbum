@@ -1,0 +1,9 @@
+[
+
+            {"id":"01","name":"Ram Shrivastva" , "address":"Pune", "Email":"SRam@gmail.com"},
+            {"id":"02","name":"Raju RajShekhar" , "address":"Amravti", "Email":"RRaju@gmail.com"},
+            {"id":"03","name":"Sam Patil" , "address":"Satara", "Email":"PSam@gmail.com"},
+            {"id":"04","name":"Akash Chanchad" , "address":"Chennai", "Email":"CAkash@gmail.com"},
+            {"id":"05","name":"Pawan Adarsh" , "address":"Bhopal", "Email":"APawan@gmail.com"}
+
+]
